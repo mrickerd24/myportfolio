@@ -1,0 +1,89 @@
+
+
+/* Set background color and text color for the entire page */
+body {
+  min-height: 100vh; /* Ensure body takes at least the full height of the viewport */
+  margin: 0; /* Remove default margin */
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  font-family: 'Inconsolata', monospace;
+  display: flex;
+  flex-direction: column; /* Align children in a column */
+}
+/* Header styles */
+header {
+  background-color: #333;
+  color: #d4d4d4;
+  padding: 10px;
+  font-family: 'Inconsolata', monospace;
+  text-align: center; /* Center text within the header */
+}
+
+/* Navigation styles */
+nav {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  font-family: 'Inconsolata', monospace;
+}
+
+/* Container styles */
+.container {
+  display: flex;
+}
+
+.left-side,
+.right-side {
+  width: 45%; /* Each side takes up 45% of the container */
+}
+
+
+/* Main content styles */
+main {
+  padding: 20px;
+  font-family: 'Inconsolata', monospace;
+}
+
+/* Code block styles */
+code {
+  background-color: #2b2b2b;
+  color: #d4d4d4;
+  padding: 2px 4px;
+  font-family: 'Inconsolata', monospace;
+}
+
+/* Links styles */
+a {
+  color: #4e94ce;
+  font-family: 'Inconsolata', monospace;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #d4d4d4;
+  padding: 10px;
+  font-family: 'Inconsolata', monospace;
+  text-align: center; /* Center text within the footer */
+}
+/* Example: Styling a button */
+button {
+  background-color: #4e94ce;
+  color: #4e94ce;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: 'Inconsolata', monospace;
+  margin-top: auto; /* Push the footer to the bottom */
+}
+
+/* Example: Styling an input field */
+input {
+  padding: 8px;
+  border: 1px solid #333;
+  border-radius: 3px;
+  font-family: 'Inconsolata', monospace;
+}
+
+	/* 	<!--<p class="python">Blue Font </p>
+	<p class="robot">Turquoise Font</p>--> */
