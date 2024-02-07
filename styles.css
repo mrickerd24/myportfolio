@@ -1,3 +1,9 @@
+/*@media only screen and (max-width: 600px) {
+    .desktop-only {
+        display: none;
+    }
+}
+*/
 
 
 /* Set background color and text color for the entire page */
@@ -30,25 +36,17 @@ nav {
         .container {
             display: flex;
             justify-content: space-between;
-            margin: 300px;
+            margin: auto;
+			padding: 20px;
         }
 
 .left-side,
 .right-side {
-  width: 50%; /* Each side takes up 45% of the container */
-}
-@media only screen and (max-width: 600px) {
-    .desktop-only {
-        display: none;
-    }
+  flex: 1;
 }
 
-/* Show on small screens */
-@media only screen and (max-width: 600px) {
-    .mobile-only {
-        display: block;
-    }
-}
+
+
 /* Main content styles */
 main {
   padding: 20px;

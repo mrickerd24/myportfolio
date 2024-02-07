@@ -1,0 +1,6 @@
+/* Show on small screens */
+@media only screen and (max-width: 600px) {
+    .mobile-only {
+        display: block;
+    }
+}
