@@ -27,13 +27,15 @@ nav {
 }
 
 /* Container styles */
-.container {
-  display: flex;
-}
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
 
 .left-side,
 .right-side {
-  width: 45%; /* Each side takes up 45% of the container */
+  width: 50%; /* Each side takes up 45% of the container */
 }
 
 
@@ -66,6 +68,15 @@ footer {
   text-align: center; /* Center text within the footer */
 }
 /* Example: Styling a button */
+.StarWin-button:hover {
+  color: #34b526;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: 'Inconsolata', monospace;
+  margin-top: auto; /* Push the footer to the bottom */
+}
 button {
   background-color: #4e94ce;
   color: #4e94ce;
@@ -76,6 +87,48 @@ button {
   font-family: 'Inconsolata', monospace;
   margin-top: auto; /* Push the footer to the bottom */
 }
+
+
+        .home-button {
+            text-decoration: none; /* Remove underline */
+            color: d4d4d4; /* Set default color */
+        }
+
+        /* Change color on hover */
+        .home-button:hover {
+            color: #ae34eb; /* Set hover color */
+        }
+
+.resume-button:hover {
+  color: #b52683;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: 'Inconsolata', monospace;
+  margin-top: auto; /* Push the footer to the bottom */
+}
+
+.skills-button:hover {
+  color: #239e3b;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: 'Inconsolata', monospace;
+  margin-top: auto; /* Push the footer to the bottom */
+}	
+
+.attributions-button:hover {
+  color: #f2251b;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: 'Inconsolata', monospace;
+  margin-top: auto; /* Push the footer to the bottom */
+}	
+		
 
 /* Example: Styling an input field */
 input {
