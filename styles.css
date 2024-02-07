@@ -30,12 +30,15 @@ nav {
         .container {
             display: flex;
             justify-content: space-between;
-            margin: 20px;
+            margin: 300px;
         }
 
 .left-side,
 .right-side {
   width: 50%; /* Each side takes up 45% of the container */
+}
+@media only screen and (max-width: 600px) {
+    /* Your mobile-specific styles go here */
 }
 
 
