@@ -1,5 +1,4 @@
 
-
 /* Set background color and text color for the entire page */
 body {
   min-height: 100vh; /* Ensure body takes at least the full height of the viewport */
@@ -128,7 +127,27 @@ button {
   font-family: 'Inconsolata', monospace;
   margin-top: auto; /* Push the footer to the bottom */
 }	
-		
+
+.college-button {
+  color: #d4d4d4;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: 'Inconsolata', monospace;
+  margin-top: auto; /* Push the footer to the bottom */
+}
+
+
+.college-button:hover {
+  color: #ebbd34;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: 'Inconsolata', monospace;
+  margin-top: auto; /* Push the footer to the bottom */
+}		
 
 /* Example: Styling an input field */
 input {
