@@ -46,6 +46,10 @@ nav {
 	margin-left: 25px;
 }
 
+.paragraph2 {
+	margin-left: 35px;
+}
+
 @media only screen and (max-width: 600px) {
   .container {
     flex-direction: column; /* Stack containers on top of each other */
