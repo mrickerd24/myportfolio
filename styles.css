@@ -18,6 +18,10 @@ header {
   text-align: center; /* Center text within the header */
 }
 
+h2 {
+	color: #4e94ce;
+}
+
 /* Navigation styles */
 nav {
   background-color: #1e1e1e;
