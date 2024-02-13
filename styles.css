@@ -121,9 +121,35 @@ button {
             color: #ae34eb; /* Set hover color */
         }
 
+.resume-button:hover {
+  color: #b52683;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: 'Inconsolata', monospace;
+  margin-top: auto; /* Push the footer to the bottom */
+}
 
+.skills-button:hover {
+  color: #239e3b;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: 'Inconsolata', monospace;
+  margin-top: auto; /* Push the footer to the bottom */
+}	
 
-
+.attributions-button:hover {
+  color: #f2251b;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: 'Inconsolata', monospace;
+  margin-top: auto; /* Push the footer to the bottom */
+}	
 
 .college-button {
   color: #d4d4d4;
@@ -136,19 +162,6 @@ button {
 }
 
 
-
-
-/* Example: Styling an input field */
-input {
-  padding: 8px;
-  border: 1px solid #333;
-  border-radius: 3px;
-  font-family: 'Inconsolata', monospace;
-}
-
-
-@media only screen and (min-width: 768px) {
-
 .college-button:hover {
   color: #ebbd34;
   padding: 10px 15px;
@@ -157,51 +170,15 @@ input {
   border-radius: 3px;
   font-family: 'Inconsolata', monospace;
   margin-top: auto; /* Push the footer to the bottom */
-	}
+}		
 
-.attributions-button:hover {
-  color: #f2251b;
-  padding: 10px 15px;
-  border: none;
-  cursor: pointer;
+/* Example: Styling an input field */
+input {
+  padding: 8px;
+  border: 1px solid #333;
   border-radius: 3px;
   font-family: 'Inconsolata', monospace;
-  margin-top: auto; /* Push the footer to the bottom */
-	}	
-
- .attributions-button:hover {
-  color: #f2251b;
-  padding: 10px 15px;
-  border: none;
-  cursor: pointer;
-  border-radius: 3px;
-  font-family: 'Inconsolata', monospace;
-  margin-top: auto; /* Push the footer to the bottom */
-	}	
-  
-  .skills-button:hover {
-  color: #239e3b;
-  padding: 10px 15px;
-  border: none;
-  cursor: pointer;
-  border-radius: 3px;
-  font-family: 'Inconsolata', monospace;
-  margin-top: auto; /* Push the footer to the bottom */
-	}	
-
-  .resume-button:hover {
-  color: #b52683;
-  padding: 10px 15px;
-  border: none;
-  cursor: pointer;
-  border-radius: 3px;
-  font-family: 'Inconsolata', monospace;
-  margin-top: auto; /* Push the footer to the bottom */
-	}
 }
-  
-  
-  
 
 	/* 	<!--<p class="python">Blue Font </p>
 	<p class="robot">Turquoise Font</p>--> */
