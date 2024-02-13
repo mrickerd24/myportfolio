@@ -37,6 +37,10 @@ nav {
   width: 50%; /* Each side takes up 45% of the container */
 }
 
+.paragraph1 {
+	margin-left: 20px;
+}
+
 @media only screen and (max-width: 600px) {
   .container {
     flex-direction: column; /* Stack containers on top of each other */
@@ -46,6 +50,11 @@ nav {
   .right-side {
     width: 100%; /* Each side takes up 100% of the container on smaller screens */
   }
+
+.paragraph1 {
+	margin-left: 6px;
+}
+
 }
 
 /* Main content styles */
