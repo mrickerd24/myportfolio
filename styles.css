@@ -20,6 +20,7 @@ header {
 
 h2 {
 	color: #4e94ce;
+	margin-left: 25px;
 }
 
 /* Navigation styles */
@@ -99,6 +100,8 @@ footer {
   font-family: 'Inconsolata', monospace;
   margin-top: auto; /* Push the footer to the bottom */
 }
+
+
 button {
   background-color: #4e94ce;
   color: #4e94ce;
@@ -111,13 +114,13 @@ button {
 }
 
 
-        .home-button {
+.home-button {
             text-decoration: none; /* Remove underline */
             color: d4d4d4; /* Set default color */
         }
 
-        /* Change color on hover */
-        .home-button:hover {
+/* Change color on hover */
+.home-button:hover {
             color: #ae34eb; /* Set hover color */
         }
 
