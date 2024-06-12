@@ -189,3 +189,7 @@ input {
 
 	/* 	<!--<p class="python">Blue Font </p>
 	<p class="robot">Turquoise Font</p>--> */
+	
+.description {
+  padding-left: 20px; /* Match the text-indent value for subsequent lines */
+}
